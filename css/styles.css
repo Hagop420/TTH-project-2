@@ -208,7 +208,7 @@
  }
  
  .credit p {
-   float: left;
+ 
    color: #9b9c9c;
  }
 
@@ -217,7 +217,7 @@
  }
  
  .credit p + p {
-   float: right;
+  
    text-transform: uppercase;
  }
 
@@ -351,8 +351,9 @@
    }
  
  
-   nav ul li {
-     float: left;
+   nav ul  {
+      justify-content: center;
+     display: flex;
      background-color: transparent;
    }
  
@@ -362,7 +363,6 @@
    }
  
    .profile-pic {
-     /* float: right; */
      width: 33%;
    }
  
@@ -373,14 +373,7 @@
      padding: 0 2rem;
    }
  
-   /* .intro {
-     float: left;
-     width: 67%;
-     margin-top: 0;
-     padding: 0 1em;
-     font-size: 1.125em;
-     text-align: left;
-   } */
+   
    .img-1 {
      max-width:140% !important;
      margin-top: 50px;
@@ -453,7 +446,6 @@ top:6px;
    .skills {
      display: flex;
      justify-content: space-around;
-     /* float: left; */
      max-width: 100%;
    }
  
@@ -618,6 +610,19 @@ bottom:1600px
       position: absolute;
    }
 
+   .flex-items{
+      display: flex;
+   }
+
+   .logo{
+      position: absolute;
+      left:100px
+   }
+
+   ul{
+      justify-content: flex-end;
+   }
+
    .img-2{
       position: relative;
       left:265px;
@@ -642,12 +647,12 @@ bottom:1600px
    }
  
    .logo {
-     float: left;
+     
      padding: 1rem 0;
    }
  
    .main-nav {
-     float: right;
+   
      margin-right: 24px;
    }
  
@@ -702,9 +707,7 @@ height: 200px;
 
   
 
-   .stop{
-    
-   }
+   
 
    .credit p {
       display:flex;
