@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Simple form</title>
+   <style>
+      form{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         background-color: #ccc;
+         align-items: center;
+         min-width: 500px;
+         height:50vh;
+         margin: 20vh 20rem;
+      }
+
+      
+
+      input{
+         width: 50%;
+        min-width: 150px;
+         margin:2rem;
+         padding: 15px 0;
+         border-radius: 3px;
+         border:0;
+         outline-color: black;
+         background-color: gray;
+      }
+
+    
+   </style>
+</head>
+<body>
+
+   <form action="POST">
+
+      <h1>Form Field</h1>
+
+      <input type="text" name="text" id="name_text">
+      <input type="text" name="last_name" id="lastName_text">
+      <input type="password" name="password" id="password_input">
+      <button type="submit">Submit</button>
+   </form>
+   
+</body>
+</html>
